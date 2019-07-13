@@ -7,11 +7,11 @@ from general import *
 class Spider:
 
     # Class variables (shared among all instances)
-    project_name = ''
-    base_url = ''
-    domain_name = ''
-    queue_file = ''
-    crawled_file = ''
+    project_name = None
+    base_url = None
+    domain_name = None
+    queue_file = None
+    crawled_file = None
     queue = set()
     crawled = set()
 
