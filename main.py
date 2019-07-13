@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import threading
 from queue import Queue
 from spider import Spider

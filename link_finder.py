@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from html.parser import HTMLParser
 from urllib import parse
 
