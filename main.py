@@ -9,8 +9,8 @@ from general import *
 PROJECT_NAME = 'kafka'
 HOME_PAGE = 'https://kafka.apache.org'
 DOMAIN_NAME = get_sub_domain_name(HOME_PAGE)
-QUEUE_FILE = PROJECT_NAME + '/queue.txt'
-CRAWLED_FILE = PROJECT_NAME + '/crawled.txt'
+QUEUE_FILE = 'Projects/' + PROJECT_NAME + '/queue.txt'
+CRAWLED_FILE = 'Projects/' + PROJECT_NAME + '/crawled.txt'
 NUMBER_OF_THREADS = 20
 queue = Queue()
 Spider(PROJECT_NAME, HOME_PAGE, DOMAIN_NAME)
